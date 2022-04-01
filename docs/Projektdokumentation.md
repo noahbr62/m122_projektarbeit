@@ -12,6 +12,9 @@ TODO: schreiben sie wie die Skripte aufgerufen werden sollen (d.h. welche Parame
 ### Ablauf der Automation
 
 TODO: Hier kommt ihr UML-Activity Diagramm
+Script 1: 
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/58325460/161236807-0dbeb401-b1a9-4d1a-89e2-4e95d6129856.png)
+
 
 ### Konfigurationsdateien
 
