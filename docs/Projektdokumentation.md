@@ -7,7 +7,10 @@ Anhand der Analyse wurde folgendes Lösungsdesign entworfen.
 
 ### Aufruf der Skripte
 
-TODO: schreiben sie wie die Skripte aufgerufen werden sollen (d.h. welche Parameter werden übergeben, gibt es Interaktionen mit dem Skript, läuft es automatisch täglich ab?)
+**Skript 1:**
+
+Skript 1 wird einfach von der Commandline ausgeführt. Dabei liefert man dort zusätzlich noch das Base-Verzeichnis zum abspeichern aller Repositories mit. Auch benötigt das Skript ein Config-File sowie eine Liste mit allen zu holenden Repositories
+
 
 ### Ablauf der Automation
 
