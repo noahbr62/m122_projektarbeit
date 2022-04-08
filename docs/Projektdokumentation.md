@@ -29,9 +29,7 @@ Skript 2:
 
 TODO: Definieren sie welche Parameter in welchen Konfigurationsdateien gespeichert werden.
 
-
-
-
+Beim Skript 2 wird keine Konfigurationsdatei benötigt, denn die Parameter werden per Commandline übergeben.
 
 ## Abgrenzungen zum Lösungsdesign
 
