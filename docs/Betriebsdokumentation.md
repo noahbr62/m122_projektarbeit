@@ -2,8 +2,6 @@
 [[_TOC_]]
 ## Einführungstext 
 
-TODO: In 2-3 Sätzen beschreiben was die Skripte grundsaetzlich tun.
-
 #### Skript 1: git_clone_update_repos script
 
 Dieses Skript klont mittels einer externen Liste von Repository-URLs alle angegebenen externen Repos lokal in ein User-definiertes Verzeichnis. Sollte ein Repo schon existieren so wird dieses mittels ```git pull``` geupdated. Alle lokalen Repositories, die nicht in der Repository-URL-Liste definiert sind, werden entfernt. 
@@ -17,8 +15,6 @@ Dieses Skript liest alle Commits aus, aus den Repositories die im ersten Skript 
 
 ### Installation
 
-TODO: Wie ist das skript zu installieren. (z.B. apt-get install ... oder tar xvf .... oder ...)
-
 Da die Skripts in diesem Repo liegen kann man diese das Ganze leicht mit einem 
         
     git clone https://github.com/noahbr62/m122_projektarbeit.git
@@ -26,12 +22,6 @@ Da die Skripts in diesem Repo liegen kann man diese das Ganze leicht mit einem
 clonen und bei sich Lokal holen.
 
 ### Konfiguration
-
-TODO: Beschreibung der Konfigurationsfiles (Beispiel-Files erstellen im Repo)
-
-TODO: Wie ist ein allfaelliger Cronjob einzurichten
-
-TODO: Wie sind User-Home-Templates einzurichten
 
 #### Skript 1: git_clone_update_repos script
 
@@ -49,14 +39,6 @@ Das repolist.env file sollte von der Struktur her so aussehen:
 Für das zweite Skript werden keine Konfigurationen benötigt. Zu Beginn hatten wir Probleme mit dem ausführen des Skripts, dieses Problem haben wir behoben in dem wir 'Dos2Unix' installiert haben. Dies kann man leicht installieren mit ```sudo apt install dos2unix```.
 
 ## Bediensanleitung Benutzer
-
-TODO: Erzeugen der Input-Files beschreiben, falls noetig
-
-TODO: beschreiben des Scriptaufruf
-
-TODO: beschreiben der erzeugt files (falls solche erzeugt werden)
-
-TODO: Lokation von logfiles und bekannte Fehlermeldungen beschreiben.
 
 #### Skript 1: git_clone_update_repos script
 
