@@ -99,6 +99,6 @@ Falls dies funktioniert hat werden nach dem ausführen 2 Files erstellt
         
 #centralLog.txt
 Die Logdatei wird am gleichen Ort gespeichert, in dem das Skript ausgeführt wird. Die meisten Meldungen sind:
-        * Warning: Fehlermeldung falls zum Beispiel kein Repository existiert oder keine Repositories im Repository sind
+        Markup : * Warning: Fehlermeldung falls zum Beispiel kein Repository existiert oder keine Repositories im Repository sind
         * Information: Meldung das Repository vorhanden ist oder GIT Repositories vorhanden sind
         * Success: Erfolgreiches extrahieren der Commits
