@@ -15,9 +15,9 @@ if [ -d "$Repositories" ]; then
   log I repository exists
 else
   LOGLEVEL=W
-  echo "No repositories"
-  echo "Creating repositories"
-  mkdir repositories
+  echo "No repositories found called $4"
+  echo "Creating repositories called $4"
+  mkdir $4
   log W repository does not exist
 fi
 
