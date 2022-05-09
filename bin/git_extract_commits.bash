@@ -53,5 +53,5 @@ do
     path=$(sed 's/.git//g' <<< $repository)
     cd $path
     base=$(basename $path);
-    git log --pretty=format:$base',%cd,%H,%an' --date=format:'%Y%m%d' > $2
+    git log --pretty=format:$base',%cd,%H,%an' --date=format:'%Y%m%d' > $cwd/$2
 done
