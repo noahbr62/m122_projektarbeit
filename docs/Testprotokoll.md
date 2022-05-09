@@ -1,4 +1,4 @@
-Skript 1
+Skript 1 git_clone_update_repos
 
 | Testfall | Testbeschreibung | Testdaten | erwartetes Testresultat | erhaltenes Testresultat | Tester | Testdatum und Teststatus |
 |  - | - | - | - | - | - | - |
@@ -8,7 +8,7 @@ Skript 1
 | Fehlerhafte Repository-URL | Das Skript soll mit einer Liste arbeiten, welche einen Eintrag hat, in dem die Repository-URL auf ein Privates Repo zeigt | repolist.txt mit folgendem Inhalt:<pre>git@gitlab.com:henry.irving2001/m122_praxisarbeit.git Henry_Irving_Justin_Feliz<br>https://gitlab.com/wapdc/InfoSearch/Project-2017</pre> | Skript ignoriert den falschen Eintrag und behandelt die restlichen Zeilen | | | |
 | Alte Repos behandeln | Es soll Lokal ein Repository haben, welches nicht mehr in der Liste definiert ist | repolist.txt mit folgendem Inhalt:<pre>https://github.com/github/training-kit.git training_kit<br>https://github.com/github/scientist.git scientist</pre> | Skript löscht das veraltete lokale Repository und verhält sich ansonsten wie erwartet | | | |
 
-Skript 2
+Skript 2 git_extract_commits
 
 | Testfall | Testbeschreibung | Testdaten | erwartetes Testresultat | erhaltenes Testresultat | Tester | Testdatum und Teststatus |
 |  - | - | - | - | - | - | - |
