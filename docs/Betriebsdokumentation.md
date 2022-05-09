@@ -64,13 +64,13 @@ Alle Pfade die man dem Skript mitliefert gehen vom Standort des Skripts aus.
 
 Das Skript wird per Commandline aufgerufen mit diesem Befehl:
 ```
-./script.bash . /home/michael/Desktop/M122/LB2/gitlog.txt . repositories
+./script.bash . gitlog.txt . repositories
 
 #Was die einzelnen Komponenten bedeuten:
 
 './script.bash' führt das Skript aus.
 
-'/home/michael/Desktop/M122/LB2/gitlog.txt' ist der Pfad in dem das Outputfile gespeichert werden soll von den Commits.
+'gitlog.txt' ist der Name des Outputfiles.
 
 'repositories' ist der Ordner in dem sich die Repositories befinden die im ersten Skript geklont wurden.
 ```
