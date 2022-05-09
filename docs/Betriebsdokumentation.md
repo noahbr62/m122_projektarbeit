@@ -94,11 +94,11 @@ Das Skript wird per Commandline aufgerufen mit diesem Befehl:
 ```
 
 Falls dies funktioniert hat werden nach dem ausführen 2 Files erstellt
-        1. gitlog.txt - Datei mit allen Commits in diesem Format:<Zielverzeichnis,Datum,Commit-Hash,Author>
-        2. centralLog.txt - Datei mit den Logs
+1. gitlog.txt - Datei mit allen Commits in diesem Format:<Zielverzeichnis,Datum,Commit-Hash,Author>
+2. centralLog.txt - Datei mit den Logs
         
 #centralLog.txt
 Die Logdatei wird am gleichen Ort gespeichert, in dem das Skript ausgeführt wird. Die meisten Meldungen sind:
-        Markup : * Warning: Fehlermeldung falls zum Beispiel kein Repository existiert oder keine Repositories im Repository sind
-        * Information: Meldung das Repository vorhanden ist oder GIT Repositories vorhanden sind
-        * Success: Erfolgreiches extrahieren der Commits
+- Warning: Fehlermeldung falls zum Beispiel kein Repository existiert oder keine Repositories im Repository sind
+- Information: Meldung das Repository vorhanden ist oder GIT Repositories vorhanden sind
+- Success: Erfolgreiches extrahieren der Commits
