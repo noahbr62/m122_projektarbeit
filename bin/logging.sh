@@ -25,6 +25,13 @@ log(){
                                         ;;
                         esac
                         ;;
+                S)
+                        case $LOGLEVEL in
+                                D|I|W|S)
+                                        echo "$DATE:SUCCESS:$*"  >> centralLog.txt
+                                        ;;
+                        esac
+                        ;;
                 E)
                         echo "$DATE:ERROR:$*"  >> centralLog.txt
                         ;;
