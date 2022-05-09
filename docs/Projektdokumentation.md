@@ -27,7 +27,7 @@ Skript 2:
 ![Script2](https://github.com/noahbr62/m122_projektarbeit/blob/master/images/script2.png)
 ### Konfigurationsdateien
 
-TODO: Definieren sie welche Parameter in welchen Konfigurationsdateien gespeichert werden.
+Das Skript 1 benötigt nur eine Liste mit allen gewünschten Repositories sowie lokalen Bezeichnungen.
 
 Beim Skript 2 wird keine Konfigurationsdatei benötigt, denn die Parameter werden per Commandline übergeben.
 
